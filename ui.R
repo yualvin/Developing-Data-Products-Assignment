@@ -11,7 +11,8 @@ ui<-fluidPage(
                                  The table filters the available cars from the mtcars dataset that has higher than or 
                                  equivalent MPG AND lower than or equivalent 1/4 mile time that was selected via the 
                                  respective sliders. You can then fine tune your selection by sorting available variables
-                                 in ascending/descending order.The variables used for filtering are mpg and qsec respectively.')
+                                 in ascending/descending order.The variables used for filtering are mpg and qsec respectively.
+                                 The ui.R and server.R code on github can be found here (https://github.com/yualvin/Developing-Data-Products-Assignment).')
                 ),
                 mainPanel("Available Cars",
                           dataTableOutput("table")
